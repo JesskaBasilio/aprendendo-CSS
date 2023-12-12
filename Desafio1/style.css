@@ -1,97 +1,68 @@
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
+    background-color: #212121;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .center {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-ul {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
-ul li {
-    position: relative;
-    list-style: none;
-    width: 60px;
-    height: 60px;
-    margin: 0 30px;
-    transform: rotate(-30deg) skew(25deg);
-    background: #ccc;
-}
-
-ul li span {
-    
+  
+    min-height: 100vh;
+    text-align: center;
+    overflow-x: hidden;
+  }
+  
+  @keyframes ring {
+    0% {
+      transform: rotate(0deg);
+      box-shadow: 1px 5px 2px #59c173;
+    }
+  
+    50% {
+      transform: rotate(180deg);
+      box-shadow: 1px 5px 2px #a17fe0;
+    }
+  
+    100% {
+      transform: rotate(360deg);
+      box-shadow: 1px 5px 2px #5d26c1;
+    }
+  }
+  
+  .ring {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
     position: absolute;
-    top: 0;
+    animation: ring 2s linear infinite;
+  }
+  
+  .ring:before {
+    position: absolute;
     left: 0;
+    top: 0;
+  
+    content: "";
     width: 100%;
     height: 100%;
-    background: #000; 
-    color: #fff;
-    font-size: 30px !important;
-    transition: 0.5s;
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
-}
-
-ul li:hover span {
-    box-shadow: -1px 1px 1px rgba(0, 0, 0, .1);
-}
-
-ul li:hover span:nth-child(5) {
-    transform: translate(40px, -40px);
-    opacity: 1;
-    
-}
-
-ul li:hover span:nth-child(4) {
-    transform: translate(30px, -30px);
-    opacity: 0.8;
-}
-
-ul li:hover span:nth-child(3) {
-    transform: translate(20px, -20px);
-    opacity: 0.6;
-}
-
-ul li:hover span:nth-child(2) {
-    transform: translate(10px, -10px);
-    opacity: 0.4;
-}
-
-ul li:hover span:nth-child(1) {
-    transform: translate(0, 0);
-    opacity: 0.2;
-}
-
-ul li:nth-child(1) span{
-    background: #3b5999;
-
-}
-
-ul li:nth-child(2) span{
-    background: #55acee;    
-}
-
-ul li:nth-child(3) span{
-    background: #dd4b39;
-}
-
-ul li:nth-child(4) span{
-    background: #0077b5;
-}
-
-ul li:nth-child(5) span{
-    background: #e4405f;
-    
-}
-ul li:nth-child(6) span{
-    background: #c5af31;
-    
-}
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+  }
+  
+  @keyframes text {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  span {
+    color: #737373;
+    font-size: 20px;
+    line-height: 200px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    animation: text 3s ease-in-out infinite;
+  }
