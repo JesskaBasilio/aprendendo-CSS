@@ -87,6 +87,23 @@
 </ul>
 </div>
 
+<div>
+<h3><strong>🌟 Fontes</strong></h3>
+<ul>
+<li>Onde Encontrar Fontes Personalizadas?</li>
+<li>Personalizando as Fontes do Nosso Site</li>
+<li>Aplicando Fontes Personalizadas com @Font-Face</li>
+<li>Aplicando Fontes Personalizadas com @import url()</li>
+<li>Alterando o Tamanho das Fontes com Font-Size</li>
+<li>Estilo de Fontes (Font-Style)</li>
+<li>Espessura das Fontes com Font-Weight</li>
+<li>Variação das Fontes com Font-Variant</li>
+<li>Propriedade Font-Stretch</li>
+<li>Customizando a Altura da Linha com Line-Height</li>
+<li>Propriedade Resumida Font</li>
+</ul>
+</div>
+
 
 
 
