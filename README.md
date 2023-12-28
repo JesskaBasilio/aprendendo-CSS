@@ -4,10 +4,10 @@
 
 ## Conteúdo Abordado nos Desafios
 
-<p>Este repertótio aborda os seguintes temas em CSS 👇
+<p>Este repositório aborda os seguintes temas em CSS 👇
 
 <div>
-<h3><strong>Seletores</strong></h3>
+<h3><strong>🌟 Seletores</strong></h3>
 <ul>
 <li>Seletor de Tags</li>
 <li>Seletor de ID</li>
@@ -18,7 +18,7 @@
 </div>
 
 <div>
-<h3><strong>Combinadores</strong></h3>
+<h3><strong>🌟 Combinadores</strong></h3>
 <ul>
 <li>Agrupamento de Seletores</li>
 <li>Combinador de Descendente</li>
@@ -28,7 +28,7 @@
 </div>
 
 <div>
-<h3><strong>Propriedades de Dimensionamento e Espaçamento</strong></h3>
+<h3><strong>🌟 Propriedades de Dimensionamento e Espaçamento</strong></h3>
 <ul>
 <li>Largura e Altura</li>
 <li>Largura e Altura Máxima e Mínima</li>
@@ -39,7 +39,7 @@
 </div>
 
 <div>
-<h3><strong>Cores</strong></h3>
+<h3><strong>🌟 Cores</strong></h3>
 <ul>
 <li>Cores Pré-definidas</li>
 <li>RGB e RGBA</li>
@@ -49,7 +49,7 @@
 </div>
 
 <div>
-<h3><strong>Imagens</strong></h3>
+<h3><strong>🌟 Imagens</strong></h3>
 <ul>
 <li>Propriedade Object-Fit</li>
 <li>Propriedade Object-Position</li>
@@ -57,7 +57,7 @@
 </div>
 
 <div>
-<h3><strong>Fundo dos Elementos</strong></h3>
+<h3><strong>🌟 Fundo dos Elementos</strong></h3>
 <ul>
 <li>Alterando o Fundo dos Elementos</li>
 <li>Redimensionando a Imagem de Fundo dos Elementos</li>
@@ -72,7 +72,7 @@
 </div>
 
 <div>
-<h3><strong> Bordas</strong></h3>
+<h3><strong>🌟 Bordas</strong></h3>
 <ul>
 <li>Tamanho da Borda</li>
 <li>Estilo da Borda</li>
