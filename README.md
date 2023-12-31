@@ -60,6 +60,8 @@ p {<br>
 
 <li><b>📗 Seletores Universais 📌</b></li>
 
+fazer pesquisa a respeito...
+
 <p>Exemplo:</p>
 <code>
 * {<br>
