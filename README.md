@@ -17,7 +17,7 @@ font-size | 12px |
 
 
 <div>
-<h3><strong>🌟 Seletores</strong></h3>
+<h2><strong>🌟 Seletores</strong></h2>
 <ul>
 
 <li><b>📗 Seletor de Tags 📌 </b></li>
@@ -60,8 +60,6 @@ p {<br>
 
 <li><b>📗 Seletores Universais 📌</b></li>
 
-fazer pesquisa a respeito...
-
 <p>Exemplo:</p>
 <code>
 * {<br>
@@ -77,14 +75,47 @@ fazer pesquisa a respeito...
 
 <li><b>📗 Seletores de Atributos 📌</b></li>
 
+<p>Exemplo:</p>
+<code>
+[title] {<br>
+  color: red;<br>
+  
+}
+</code>
+<br><br>Nesse exemplo, se houver mais de uma tag title todos os elementos da tag title (seletor) estarão em coloração vermelho. 
+</p>
+<p>Agora olhe esse exemplo:</p>
+<code>
+Netflix[title]{<br>
+    color: red<br>
+}
+</code>
+<br><br>Nesse exemplo, somente os elementos da tag title (seletor) com valor Netflix estarão em coloração vermelho. 
+</p>
 
 </ul>
 </div>
 
 <div>
-<h3><strong>🌟 Combinadores</strong></h3>
+<h2><strong>🌟 Combinadores</strong></h2>
 <ul>
-<li>Agrupamento de Seletores</li>
+
+<li>📗Agrupamento de Seletores📌</li>
+<br><p>Quando se quer declarar apenas um valor para muitos seletores, existe a possibilidade de declará-los em uma única linha. Exemplo: </p>
+<p>Exemplo 1</p>
+<code>
+h1, h2 {<br>
+    color:blue;
+}
+</code><br><br>
+<p>Os textos do Título 1 e do Título 2 terão a cor azul. </p>
+<p>Exemplo 2</p>
+<code>
+.drop, h1, #image {<br>
+    background-color: black;
+}
+</code><br><br>
+<p>Os elementos da classe drop, da ID image e o texto do Título 1 terão a cor preta. </p>
 <li>Combinador de Descendente</li>
 <li>Combinador Filho</li>
 <li>Combinador Irmão</li>
