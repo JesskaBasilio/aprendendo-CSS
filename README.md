@@ -4,16 +4,78 @@
 
 ## Conteúdo Abordado nos Desafios
 
-<p>Este repositório aborda os seguintes temas em CSS 👇
+<p>Este repositório aborda os seguintes temas em CSS 👇<br><br>
+
+Seletor | Declaração | Declaração
+------- | ---------- | ----------
+H1      | {color: blue;}| {font-size: 12px;}
+
+Propriedade | Valor 
+------- | ---------- |
+color | blue |
+font-size | 12px |
+
 
 <div>
 <h3><strong>🌟 Seletores</strong></h3>
 <ul>
-<li>Seletor de Tags</li>
-<li>Seletor de ID</li>
-<li>Seletor de Classes</li>
-<li>Seletores Universais</li>
-<li>Seletores de Atributos</li>
+
+<li><b>📗 Seletor de Tags 📌 </b></li>
+
+<p>Exemplo:</p>
+<code>
+p {<br>
+  color: red;<br>
+  text-align: center;<br>
+}
+</code>
+<br><br>Nesse exemplo, todos os elementos da tag p (seletor) estarão alinhados no centro e em coloração vermelho. 
+</p>
+
+<li><b>📗 Seletor de ID 📌 </b></li>
+<p>Exemplo:</p>
+<code>
+#color {<br>
+  color: red;<br>
+  text-align: center;<br>
+}
+</code>
+<br><br>Nesse exemplo, todos os elementos da id = "color" (seletor) estarão alinhados no centro e em coloração vermelho.
+</code>
+</p>
+
+<li><b>📗 Seletor de Classes 📌 </b></li>
+
+<p>Exemplo:</p>
+<code>
+.color {<br>
+  color: red;<br>
+  text-align: center;<br>
+}
+</code>
+<br><br>Nesse exemplo, todos os elementos da class = "color" (seletor) estarão alinhados no centro e em coloração vermelho.
+</code>
+</p>
+
+
+<li><b>📗 Seletores Universais 📌</b></li>
+
+<p>Exemplo:</p>
+<code>
+* {<br>
+  color: red;<br>
+  text-align: center;<br>
+}
+</code>
+<br><br>Nesse exemplo, todos os elementos da da página html (seletor) estarão alinhados no centro e em coloração vermelho.
+</code>
+
+</p>
+
+
+<li><b>📗 Seletores de Atributos 📌</b></li>
+
+
 </ul>
 </div>
 
