@@ -115,11 +115,23 @@ h1, h2 {<br>
     background-color: black;
 }
 </code><br><br>
-<p>Os elementos da classe drop, da ID image e o texto do Título 1 terão a cor preta. </p>
+<p>Os elementos da classe drop, da ID image e o texto do Título 1 terão a cor de fundo preta. </p>
 <li>Combinador de Descendente</li>
 <li>Combinador Filho</li>
 <li>Combinador Irmão</li>
 </ul>
+<br>
+
+|Seletor|Exemplo|Descrição do exemplo|
+|-------|-----------|----------------|
+|#id	|#firstname	|Selects the element with id="firstname"|
+|.class	|.intro	|Selects all elements with class="intro"|
+|element.class|	p.intro|	Selects only < p > elements with class="intro"|
+|*	|*	|Selects all elements|
+|element|	p	|Selects all < p > elements|
+|element,element,..|	div, p	|Selects all <div> elements and all < p > elements|
+|||
+
 </div>
 
 <div>
@@ -137,9 +149,13 @@ h1, h2 {<br>
 <h3><strong>🌟 Cores</strong></h3>
 <ul>
 <li>Cores Pré-definidas</li>
+<p>Exemplo: red</p>
 <li>RGB e RGBA</li>
+<p>Exemplo: rgb(255, 99, 71) - Tomato | rgba(255, 99, 71, 0.5) - Tomato 50% transparente.</p>
 <li>Hexadecimal</li>
+<p>Exemplo: #ff6347 - Tomato</p>
 <li>HSL e HSLA</li>
+<p>Exemplo: hsl(9, 100%, 64%) - Tomato | hsla(9, 100%, 64%, 0.5) - Tomato 50% transparente.</p>
 </ul>
 </div>
 
