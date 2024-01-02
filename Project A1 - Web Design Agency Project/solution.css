@@ -19,11 +19,6 @@ footer {
   color: midnightblue;
 }
 
-.tile-image {
-  height: 200px;
-  float: left;
-  margin-right: 50px;
-}
 
 .card {
   width: 45%;
@@ -51,17 +46,21 @@ footer {
     text-align: center;
   }
 
-  .card {
+  .tile-image{
     width: 100%;
     display: block;
     margin-bottom: 30px;
     text-align: justify;
+    height: 200px;
+    float: left;
+    margin-right: 50px;
   }
 
   .card img {
     margin-bottom: 10px;
     width: 100%;
-    display: inline;
+    display: inline-block;
     object-fit: cover;
+    
   }
 }

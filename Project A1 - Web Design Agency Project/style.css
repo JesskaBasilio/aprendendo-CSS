@@ -6,12 +6,13 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
+
 .main {
-  flex: 1;
+  flex: 1;  
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 5rem;  
 }
 
 footer {
@@ -19,3 +20,39 @@ footer {
   color: midnightblue;
 }
 
+@media (max-width: 680px){
+  .logo {
+    width: 100px;
+  }
+}
+
+h1 {
+  font-size: 3.5rem;
+}
+
+span{
+  color: midnightblue;
+}
+
+.tile-image {
+  width: 45%;
+  display: block;
+  float: left;
+  position: relative;
+
+}
+
+.card {
+ position: relative;
+ float: left;
+ background-color: blue;
+ margin: 10px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
