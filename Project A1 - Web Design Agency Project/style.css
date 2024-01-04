@@ -13,8 +13,8 @@ body {
 
 h1 {
   font-size: 3.5rem;
-  width: 75%;
-  
+  width: 60%;
+  margin-bottom: 30px;
 }
 
 footer {
@@ -27,6 +27,7 @@ footer {
   width: 45%;
   text-align: justify;
   display: inline-block;
+  margin-top: 20px;
  
 }
 
@@ -39,38 +40,21 @@ footer {
 .right {
   float: right;
   position: absolute;
- left: 400px;
+  margin-left: 50px;
 }
 
 span {
   color: midnightblue;
 }
 
-/*@media (min-width: 319px) and (max-width: 480px) {
-  body {
-    width: 45%;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 1200px) {
-  body {
-    width: 55%;
-  }
-}
-
-@media (min-width: 1201px) and (max-width: 1600px) {
-  body {
-    width: 60%;
-  }
-}
-@media (max-width: 680px) {
-  .logo {
-    width: 100px;
-  }*/
-
-  @media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) {
     .card {
-      width: 48%;
+      width: 50%;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    .logo {
+      width: 100px;
     }
   }
 
@@ -79,17 +63,16 @@ span {
     display: block;
     margin-bottom: 30px;    
     height: 100px;
-    margin-right: 50px;
+    margin-right: 40px;
     float: left;  
   }
 
   .card img {
     margin-bottom: 10px;
     width: 45%;
-    height: 100px;
+    height: 200px;
     display: block;
     object-fit: cover;
     float: left;
     
   }
-}
