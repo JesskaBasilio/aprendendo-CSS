@@ -6,13 +6,15 @@ body {
   flex-direction: column;
   min-height: 95vh;
 }
-
 .main {
-  flex: 1;  
+  flex: 1;
+  
 }
 
 h1 {
-  font-size: 5rem;  
+  font-size: 3.5rem;
+  width: 75%;
+  
 }
 
 footer {
@@ -20,39 +22,74 @@ footer {
   color: midnightblue;
 }
 
-@media (max-width: 680px){
-  .logo {
-    width: 100px;
-  }
-}
-
-h1 {
-  font-size: 3.5rem;
-}
-
-span{
-  color: midnightblue;
-}
-
-.tile-image {
-  width: 45%;
-  display: block;
-  float: left;
-  position: relative;
-
-}
 
 .card {
- position: relative;
- float: left;
- background-color: blue;
- margin: 10px;
+  width: 45%;
+  text-align: justify;
+  display: inline-block;
+ 
 }
 
 .left {
   float: left;
+  position: relative;
+  
 }
 
 .right {
   float: right;
+  position: absolute;
+ left: 400px;
+}
+
+span {
+  color: midnightblue;
+}
+
+/*@media (min-width: 319px) and (max-width: 480px) {
+  body {
+    width: 45%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  body {
+    width: 55%;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  body {
+    width: 60%;
+  }
+}
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }*/
+
+  @media only screen and (min-width: 600px) {
+    .card {
+      width: 48%;
+    }
+  }
+
+  .tile-image{
+    width: 45%;
+    display: block;
+    margin-bottom: 30px;    
+    height: 100px;
+    margin-right: 50px;
+    float: left;  
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 45%;
+    height: 100px;
+    display: block;
+    object-fit: cover;
+    float: left;
+    
+  }
 }
