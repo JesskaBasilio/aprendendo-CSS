@@ -5,15 +5,12 @@
       }
 }
 
-
-
 body {
     font-family: 'Sono', sans-serif;
-  
   }
 .pricing-container {
     display: flex;
-    gap: 40px;
+    gap: 2rem;
     justify-content: center;
     height: 100vh;
     align-items: center;    
@@ -25,31 +22,37 @@ body {
     background-color: aliceblue;
     text-align: center;
     padding: 20px;
-    border-radius: 10px;
-       
+    border-radius: 6px;       
 }
 
 .plan-price {
     font-weight: bold;
     margin-bottom: 10px;
-    font-size: 24px;
+    font-size: 48px;
 }
 
 .plan-title {
     font-weight: 900;
-    font-size: 48px;
+    font-size: 24px;
     margin-bottom: 10px;
 }
 .plan-features {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.plan-features li {
+    margin-bottom: 10px;
 }
 
 .plan-button {
-    background-color: orange;
-    width: 80px;
-    height: 30px;
-    border-radius: 10px;
-    
+    background-color: rgb(248, 113, 3);
+    border: none;
+    padding: 10px;
+    border-radius: 5px; 
+    color: #fff;  
+    cursor: pointer; 
 }
 
 
