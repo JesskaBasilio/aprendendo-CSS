@@ -1,4 +1,4 @@
-# CSS - Cascading Style Sheets 👏 
+# CSS - Cascading Style Sheets ![image](https://github.com/JesskaBasilio/aprendendo-CSS/assets/152433983/a7e9bb36-4ff7-4cdf-aa92-a5daa1322e17)
 
 <p>O CSS (Cascading Style Sheets) é uma linguagem de estilo utilizada para controlar a apresentação visual de documentos HTML. Seu principal objetivo é separar a estrutura do conteúdo da sua aparência, permitindo uma maior flexibilidade e controle no design de páginas web. Ao aplicar estilos, cores, fontes e layouts, o CSS transforma simples documentos HTML em interfaces atraentes e funcionais.</p>
 
