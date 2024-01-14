@@ -1,12 +1,31 @@
-.coracao {
-    background-color: rgb(247, 72, 72);
-    width: 100px;
-    height: 100px;
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262626;
 }
 
-.coracao::after {
+.coracao {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    transform: rotate(45deg);
+
+}
+
+.coracao::before {
+    content: "";
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(247, 72, 72);
-    
+    position: absolute;
+    background-color: red;
+    transform: translate(-50%);
+    border-radius: 50%;
 }
+
+
