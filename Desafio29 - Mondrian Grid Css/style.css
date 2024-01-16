@@ -1,0 +1,101 @@
+.conteiner {
+    display: grid;
+    grid-template-columns: 0.3fr 1.7fr 1.2fr 0.8fr 1fr;
+    grid-template-rows: 1fr 0.4fr 1.6fr 1.1fr 0.2fr 1.7fr 1fr;
+    gap: 10px 10px;
+    border: 10px solid black;
+    width: auto;
+    height: 95vh;
+}
+
+.red {
+    background: yellow;
+    grid-area: 1 / 1 / 2 / 4;
+}
+
+.yellow {
+    grid-area: 2 / 4 / 5 / 6;
+    background: yellow;
+
+}
+
+.white {
+    background-color: whitesmoke;
+    grid-area: 1 / 4 / 2 / 6;
+}
+
+.blue {
+    background-color: rgb(29, 20, 100);
+    grid-area: 3 / 2 / 5 / 4;
+}
+
+.black {
+    background-color: black;
+    grid-area: 5 / 2 / 6 / 6;
+}
+
+.red1 {
+    background-color: red;
+    grid-area: 6 / 2 / 7 / 6;
+    
+}
+
+.white1 {
+    background-color: whitesmoke;
+    grid-area: 6 / 3 / 7 / 4;
+}
+
+.blue1 {
+    background-color: rgb(29, 20, 100);
+    grid-area: 6 / 4 / 8 / 6;
+    
+    
+}
+
+#yello {
+    background-color: yellow;
+    grid-area: 2 / 1 / 2 / 4;
+}
+
+#yello1 {
+    background-color: red;
+    grid-area: 7 / 4 / 7 / 5;
+    
+}
+
+#yello2 {
+    
+    background-color: yellow;
+    grid-row: auto 10px;
+    
+}
+
+.yellow1 {
+    background-color: yellow;
+    grid-area: 7 / 3 / 8 / 4;
+}
+
+.yellow3 {
+    background-color: black;
+    border-left: 5px solid yellow;
+    grid-area: 3 / 1 / 8 / 2;
+}
+
+.red4 {
+    background-color: red;
+    border: 5px solid black;
+    grid-area: 2 / 3 / 4 / 4;
+}
+
+.blue3 {
+    background-color: rgb(29, 20, 100);
+    grid-area: 3 / 5 / 4 / 6;
+}
+
+
+
+
+
+
+
+
