@@ -192,7 +192,7 @@ h1, h2 {<br>
 <li>Arredondando os Cantos com a Propriedade Border Radious</li>
 <li>Propriedade Border Image Source</li>
 <li>Propriedade Border Image Slice</li>
-<li>Propriedade Border Image Whidth</li>
+<li>Propriedade Border Image Width</li>
 <li>Propriedade Border Image Repeat</li>
 <li>Propriedade Border Image Outset</li>
 </ul>
