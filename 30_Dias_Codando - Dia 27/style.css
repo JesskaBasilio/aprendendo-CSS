@@ -1,17 +1,17 @@
-body {
+main {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 100px;
-    background-color: black;
+    font-size: 50px;
+    background-color: antiquewhite;
     color: antiquewhite;
 
 }
 .paragrafo {
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border: 2px solid #fff;
     border-radius: 50%;
     display: flex;
@@ -19,4 +19,26 @@ body {
     justify-content: center;
     background-color: blue;
     cursor: pointer;
+}
+
+header {
+    background-color: black;
+    color: yellow;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+footer {
+    background-color: black;
+    height: 30vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
