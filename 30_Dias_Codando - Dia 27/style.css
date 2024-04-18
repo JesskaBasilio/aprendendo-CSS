@@ -12,12 +12,13 @@ main {
 .paragrafo {
     height: 200px;
     width: 200px;
-    border: 2px solid #fff;
+    border: 2px solid rgb(118, 89, 199);
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blue;
+    background: none;
+    color: rgb(118, 89, 199);
     cursor: pointer;
 }
 
@@ -36,7 +37,7 @@ header {
 footer {
     background-color: black;
     height: 30vh;
-    color: #fff;
+    color: yellow;
     display: flex;
     justify-content: center;
     align-items: center;
