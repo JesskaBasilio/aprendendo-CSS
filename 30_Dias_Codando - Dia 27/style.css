@@ -23,6 +23,10 @@ main {
 }
 
 header {
+    height: 40vh;
+    
+}
+h1 {
     background-color: black;
     color: yellow;
     margin: 0;
@@ -32,6 +36,15 @@ header {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+}
+
+.imagem {
+    width: 100px;
+    height: 50px;
+    margin: 2px;
+    padding: 10px;
+    display: flex;
+        
 }
 
 footer {
