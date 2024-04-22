@@ -2,6 +2,20 @@ body {
     background-color: beige;
 }
 
+button {
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    border: 2px solid burlywood;background-color: #262626;
+    color: yellow;
+    cursor: pointer;
+    
+}
+
 main {
     height: 100vh;
     display: flex;
@@ -28,6 +42,7 @@ main {
 
 header {
     height: 40vh;
+    position: relative;
     
 }
 h1 {
@@ -40,6 +55,7 @@ h1 {
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+    position: relative;
 }
 
 .imagem {
