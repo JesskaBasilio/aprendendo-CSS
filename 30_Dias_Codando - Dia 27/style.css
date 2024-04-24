@@ -25,6 +25,7 @@ main {
     font-size: 50px;
     background-color: antiquewhite;
     color: antiquewhite;
+    cursor: pointer;
 
 }
 .paragrafo {
@@ -37,8 +38,7 @@ main {
     justify-content: center;
     background: none;
     color: rgb(118, 89, 199);
-    cursor: pointer;
-}
+    }
 
 header {
     height: 40vh;
@@ -60,9 +60,15 @@ h1 {
 
 .imagem {
     width: 300px;
-    height: 150px;
-        
+    height: 150px;    
+    border: 2px solid blue;
+    padding: 30px;
+    margin: 5px;
+    border-radius: 15%;
+    background-color: rgb(51, 24, 201);        
 }
+
+
 .coding {
     position: absolute;
     height: 100vh;
