@@ -83,7 +83,16 @@ footer {
     color: yellow;
     display: flex;
     justify-content: center;
-    align-items: center;
     font-size: 30px;
+}
+
+footer ul li {
+    list-style: none;
+    position: absolute;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+    
 }
 
