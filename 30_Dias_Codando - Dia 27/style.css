@@ -82,17 +82,18 @@ footer {
     height: 30vh;
     color: yellow;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 30px;
 }
 
-footer ul li {
+footer ul{
     list-style: none;
-    position: absolute;
     height: 20px;
     display: flex;
-    justify-content: space-around;
-    
-    
+}
+footer li {
+    padding-inline: 150px;
+    margin: 0;
+    cursor: pointer;    
 }
 
