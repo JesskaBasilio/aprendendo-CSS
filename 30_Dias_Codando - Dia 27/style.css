@@ -4,16 +4,22 @@ body {
 
 button {
     width: 100px;
-    height: 30px;
-    margin: 10px;
+    height: 20px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+    padding: 30px;
+    border-radius: 30px;
     border: 2px solid burlywood;background-color: #262626;
     color: yellow;
     cursor: pointer;
-    
+    font-size: 20px;    
+}
+.button {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 main {
